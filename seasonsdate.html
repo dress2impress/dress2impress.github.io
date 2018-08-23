@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<head>
+  <meta name="viewport"
+  content="width=device-width, initial-scale=1">
+<style>
+
+
+
+/*.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}*/
+
+
+body, html{
+  font: 400 15px/1.618 "Helvetica Neue", "Segoe UI", Tahoma, Ubuntu, sans-serif; color: black;
+}
+* {
+  box-sizing:content-box;
+}
+/*.center{
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+}*/
+h1{
+  font-size: 30px;
+  color: white;
+  font-weight: normal;
+
+}
+.column {
+  margin-left:250px;
+  float: left;
+  width: 18.6%;
+  padding: 5px;
+}
+.row ::after{
+  content: " ";
+  clear:both;
+  display:table;
+}
+.bg{
+
+  height:100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;}
+img {
+  padding: 1px;
+  border: 1px solid #112951;
+  display: block;
+}
+.container {
+    position: relative;
+    width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 400px;
+  height: 350px;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 30px;
+  padding-right:10px ;
+  padding-left: 80px;
+
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+
+</style>
+</head>
+
+<body background="file:///Users/gwc4/Desktop/Final%20Project/potentialbg.jpg" class="bg">
+  <center><h1>Choose a Season</h1></center>
+
+<div class="row">
+
+  <div class="column">
+    <div class="container">
+<a href="datespring.html"><img src="https://data.whicdn.com/images/310121127/large.jpg" alt="spring" class="image" ></a>
+<div class="middle">
+  <div class="text"><a href="interviewspring.html">Spring</a></div>
+</div> </div> </div>
+
+<div class="column">
+  <div class="container">
+<a href="datesummer.html"><img src="https://fashionista.com/.image/t_share/MTU2MzEzNDI4ODQ2MTkxOTE5/online-sales-june-15.jpg" alt="summer" class="image"></a>
+<div class="middle">
+<div class="text"><a href="interviewsummer.html">Summer</a></div>
+</div> </div> </div>
+
+
+<div class="column">
+  <div class="container">
+<a href="datefall.html"><img src="https://78.media.tumblr.com/1fb367fc087988d44d151d438f099652/tumblr_ob8t4iN2Da1u9c4a3o1_1280.jpg" alt="fall" class="image"></a>
+<div class="middle">
+  <div class="text"><a href="interviewfall.html">Fall</a></div>
+</div> </div> </div>
+
+
+<div class="column">
+  <div class="container">
+<a href="datewinter.html"><img src="https://78.media.tumblr.com/17c12c4f46fb2dbe818e2bc5662717bf/tumblr_p4187uUuBN1wjrx8io8_1280.png" alt="winter" class="image"></a>
+<div class="middle">
+  <div class="text"><a href="interviewinter.html">Winter</a></div>
+</div> </div> </div>
+
+</div>
+
+</body>
+
+
+</html>
